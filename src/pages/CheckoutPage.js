@@ -8,7 +8,7 @@ const CheckoutPage = () => {
   const { cart } = useCartContext()
   return (
     <main>
-      <PageHero title="Опалата" />
+      <PageHero title="Оплата" />
       <Wrapper className="page">
         {cart.length < 1 ? (
           <div className="empty">
