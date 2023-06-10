@@ -9,9 +9,9 @@ const CartPage = () => {
     return (
       <Wrapper className='page-100'>
         <div className='empty'>
-          <h2>Your cart is empty</h2>
+          <h2>Ваш кошик порожній</h2>
           <Link to='/products' className='btn'>
-            fill it
+            Замовити щось
           </Link>
         </div>
       </Wrapper>
@@ -19,7 +19,7 @@ const CartPage = () => {
   }
   return (
     <main>
-      <PageHero title='cart' />
+      <PageHero title='Кошик' />
       <Wrapper className='page'>
         <CartContent></CartContent>
       </Wrapper>

@@ -17,14 +17,14 @@ const CartItems = () => {
       <hr />
       <div className='link-container'>
         <Link to='/products' className='link-btn'>
-          continue shopping
+          Продовжити замовляти
         </Link>
         <button
           type='button'
           className='link-btn clear-btn'
           onClick={clearCart}
         >
-          clear shopping cart
+          Очистити кошик
         </button>
       </div>
       <CartTotals />
