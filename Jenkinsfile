@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/vlad-spitsyn/myPizzeria.git/'
+                git 'https://github.com/vlad-spitsyn/myPizzeria.git'
             }
         }
         stage('Install Dependencies') {
