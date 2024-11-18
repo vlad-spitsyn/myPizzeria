@@ -14,7 +14,7 @@ export const links = [
   },
   {
     id: 3,
-    text: 'про мене',
+    text: 'портфоліо',
     url: '/about',
   },
 ]
